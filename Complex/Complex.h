@@ -46,8 +46,13 @@ public:
 	void operator = (real value){
 		*this = complex(value,0);
 	}
-	complex operator + (real add){
-		return complex(this->a+add,this->b);
+	template<typename T>
+	friend complex operator + (complex<T> lhs, real rhs){
+		return complex<T>(lhs.a + rhs,lhs.b);
+	}
+	template<typename T>
+	friend complex operator + (real lhs, complex<T> rhs){
+		return complex<T>(rhs.a + lhs, rhs.b);
 	}
 	complex operator + (complex that){
 		return complex(this->a + that.a, this->b + that.b);

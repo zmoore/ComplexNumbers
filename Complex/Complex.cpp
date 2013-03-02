@@ -11,6 +11,12 @@ int main(){
 //	f = 5*f;
 	std::string temp = f;
 	std::cout << temp;
+	f = f + 2;
+	temp = f;
+	std::cout << temp;
+	f = 5 + f;
+	temp = f;
+	std::cout << temp;
 	return 0;
 }
 

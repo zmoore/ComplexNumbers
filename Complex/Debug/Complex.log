@@ -1,27 +1,19 @@
-﻿Build started 2/25/2013 9:37:00 AM.
-     1>Project "T:\Programming\Zach Moore\CPP\Complex\Complex\Complex.vcxproj" on node 2 (build target(s)).
+﻿Build started 3/1/2013 9:03:09 PM.
+     1>Project "C:\Users\Dad\Documents\GitHub\ComplexNumbers\Complex\Complex.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\Complex.unsuccessfulbuild".
        ClCompile:
          All outputs are up-to-date.
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Complex.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Complex.cpp
-         Complex.cpp
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(145): error C2065: 'T' : undeclared identifier
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(145): error C2065: 'T' : undeclared identifier
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(145): error C2079: 'operator *' uses undefined struct 'complex'
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2065: 'T' : undeclared identifier
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2955: 'complex' : use of class template requires template argument list
-                 t:\programming\zach moore\cpp\complex\complex\complex.h(8) : see declaration of 'complex'
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2819: type 'complex' does not have an overloaded member 'operator ->'
-                 t:\programming\zach moore\cpp\complex\complex\complex.h(8) : see declaration of 'complex'
-                 did you intend to use '.' instead?
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2232: '->complex<T>::a' : left operand has 'struct' type, use '.'
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2819: type 'complex' does not have an overloaded member 'operator ->'
-                 t:\programming\zach moore\cpp\complex\complex\complex.h(8) : see declaration of 'complex'
-                 did you intend to use '.' instead?
-     1>t:\programming\zach moore\cpp\complex\complex\complex.h(146): error C2232: '->complex<T>::b' : left operand has 'struct' type, use '.'
-     1>Done Building Project "T:\Programming\Zach Moore\CPP\Complex\Complex\Complex.vcxproj" (build target(s)) -- FAILED.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dad\Documents\GitHub\ComplexNumbers\Debug\Complex.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Complex.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Dad\Documents\GitHub\ComplexNumbers\Debug\Complex.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dad\Documents\GitHub\ComplexNumbers\Debug\Complex.lib" /MACHINE:X86 Debug\Complex.exe.embed.manifest.res
+         Debug\Complex.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\Users\Dad\Documents\GitHub\ComplexNumbers\Complex\Complex.vcxproj" (build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.61
+Time Elapsed 00:00:16.93
