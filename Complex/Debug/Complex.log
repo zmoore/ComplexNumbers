@@ -1,4 +1,4 @@
-﻿Build started 3/1/2013 9:03:09 PM.
+﻿Build started 3/1/2013 9:10:18 PM.
      1>Project "C:\Users\Dad\Documents\GitHub\ComplexNumbers\Complex\Complex.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Touching "Debug\Complex.unsuccessfulbuild".
@@ -16,4 +16,4 @@
 
 Build FAILED.
 
-Time Elapsed 00:00:16.93
+Time Elapsed 00:00:05.02
